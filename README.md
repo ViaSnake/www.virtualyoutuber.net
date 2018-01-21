@@ -1,2 +1,2 @@
-site:[url]www.virtualyoutuber.net[/url]
+site:www.virtualyoutuber.net
 面白そうだったので協力してみようかなと
