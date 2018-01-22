@@ -1,2 +1,3 @@
-site:www.virtualyoutuber.net
-面白そうだったので協力してみようかなと
+公式ウェブサイト:www.virtualyoutuber.net  
+
+ウェブサイトについて色々やりたいことあったのでその勉強がてらご協力...  
