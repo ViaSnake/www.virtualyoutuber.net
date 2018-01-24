@@ -1,7 +1,7 @@
 <!-- Sidebar -->
 <div class="col-md-4">
     <?php
-    include dirname(__FILE__) . '/inc/banner.php';
+    include dirname(__FILE__) . '/template/widget/banner.php';
     ?>
     <div class="card text-center">
         <div class="card-header">
