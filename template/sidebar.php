@@ -1,4 +1,3 @@
-<!-- Sidebar -->
 <div class="col-md-4">
     <?php
     include dirname(__FILE__) . '/template/widget/banner.php';
