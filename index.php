@@ -2,11 +2,11 @@
 <html lang="ja">
     <?php
     define("title", "HOME");
-    include dirname(__FILE__) . '/inc/header.php';
+    include dirname(__FILE__) . '/template/header.php';
     ?>
     <body>
         <?php
-        include dirname(__FILE__) . '/inc/nav.php';
+        include dirname(__FILE__) . '/template/nav.php';
         ?>
         <div class="jumbotron text-center">
             <div class="container">
@@ -18,13 +18,12 @@
                     <a class="btn btn-primary btn-lg" href="https://goo.gl/forms/YEQI5gT3nPcQpdOi2" role="button">第一回バーチャルユーチューバー選手権にエントリーする！</a>
                 </p>
                 <?php
-                include dirname(__FILE__) . '/inc/message.php';
+                include dirname(__FILE__) . '/template/widget/message.php';
                 ?>
             </div>
         </div>
 
         <div class="container">
-            <!-- Main -->
             <div class="row">
                 <div class="col-md-8">
                     <h3>Q.そもそもバーチャルユーチューバーってなに？</h3>
@@ -37,7 +36,6 @@
                         自分がVtuberと思えば、バーチャルユーチューバーです！　少なくともこの大会では！<br>
                         さあ今すぐ参加しよう。自分をアピールしよう！<br>
                     </p>
-
 
                     <div class="col-md-6">
                         <div class="card text-center">
@@ -62,7 +60,7 @@
                     </div>
                 </div>
                 <?php
-                include dirname(__FILE__) . '/inc/sidebar.php';
+                include dirname(__FILE__) . '/template/sidebar.php';
                 ?>
             </div>
         </div>
