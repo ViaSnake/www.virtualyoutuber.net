@@ -14,14 +14,17 @@
                 <p class="lead">
                     この大会は、とある視聴者がバーチャル・ユーチューバー界を盛り上げようと試みたことにより開催されたものである。
                 </p>
-                <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="https://goo.gl/forms/YEQI5gT3nPcQpdOi2" role="button">第一回バーチャルユーチューバー選手権にエントリーする！</a>
+                <hr>
+                <p>
+                    ※エントリーする上で、必ずルール等を読む必要があります。
+                    エントリーシートにも記載されていますが、必ず読んでください。 
                 </p>
-                <?php
-                include dirname(__FILE__) . '/template/widget/message.php';
-                ?>
+                <a class="btn btn-primary btn-lg" href="https://goo.gl/forms/YEQI5gT3nPcQpdOi2" role="button">第一回バーチャルユーチューバー選手権にエントリーする！</a>
             </div>
         </div>
+        <?php
+        include dirname(__FILE__) . '/template/widget/message.php';
+        ?>
 
         <div class="container">
             <div class="row">
