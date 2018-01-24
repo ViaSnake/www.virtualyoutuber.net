@@ -8,8 +8,6 @@
         <?php
         include dirname(__FILE__) . '/inc/nav.php';
         ?>
-
-
         <div class="jumbotron text-center">
             <div class="container">
                 <h1 class="display-3">バーチャルユーチューバー選手権</h1>
@@ -19,15 +17,9 @@
                 <p class="lead">
                     <a class="btn btn-primary btn-lg" href="https://goo.gl/forms/YEQI5gT3nPcQpdOi2" role="button">第一回バーチャルユーチューバー選手権にエントリーする！</a>
                 </p>
-
-                <!-- 注意書きとか -->
-                <div class="alert alert-danger" role="alert">
-
-                    <center>エントリー締切日 - 2018/02/14(日)</center>
-                </div>
-                <div class="alert alert-info" role="alert">
-                    <center>現在のエントリー人数 - 7名</center>
-                </div>
+                <?php
+                include dirname(__FILE__) . '/inc/message.php';
+                ?>
             </div>
         </div>
 
@@ -69,23 +61,9 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Right -->
-                <div class="col-md-4">
-                    <?php
-                    include dirname(__FILE__) . '/inc/banner.php';
-                    ?>
-
-                    <div class="card text-center">
-                        <div class="card-header">
-                            公式Twitter
-                        </div>
-                        <div class="card-block">
-                            <a class="twitter-timeline" data-height="700" data-theme="light" data-link-color="#981CEB" href="https://twitter.com/vtuber_net?ref_src=twsrc%5Etfw">Tweets by vtuber_net</a>
-                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                        </div>
-                    </div>
-                </div>
+                <?php
+                include dirname(__FILE__) . '/inc/sidebar.php';
+                ?>
             </div>
         </div>
     </body>
