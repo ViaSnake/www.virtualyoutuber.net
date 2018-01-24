@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
     <?php
-    define("title", "RULE");
+    define("title", "CONTACT");
     include dirname(__FILE__) . '/template/header.php';
     ?>
     <body>
