@@ -1,0 +1,12 @@
+Options -Indexes
+
+### Rewrite ###
+<IfModule mod_rewrite.c>
+  MultiviewsMatch Any
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^players/$ players.php [L]
+  RewriteRule ^link/$ link.php [L]
+  RewriteRule ^rule/$ rule.php [L]
+  RewriteRule ^contact/$ contact.php [L]
+</IfModule>
