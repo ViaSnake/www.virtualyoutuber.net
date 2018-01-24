@@ -62,9 +62,11 @@
                         </div>
                     </div>
                 </div>
-                <?php
-                include dirname(__FILE__) . '/template/sidebar.php';
-                ?>
+                <div class="col-md-4">
+                    <?php
+                    include dirname(__FILE__) . '/template/sidebar.php';
+                    ?>
+                </div>
             </div>
         </div>
         <?php
