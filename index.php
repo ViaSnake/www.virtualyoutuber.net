@@ -64,5 +64,8 @@
                 ?>
             </div>
         </div>
+        <?php
+        include dirname(__FILE__) . '/template/footer.php';
+        ?>
     </body>
 </html>
