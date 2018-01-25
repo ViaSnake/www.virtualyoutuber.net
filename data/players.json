@@ -1,81 +1,89 @@
 [
     {
+        "number": "1",
         "name": "魂パペット",
         "hiragana_name": "たましいぱぺっと",
         "youtubechannel_name": "魂パペット チャンネル",
         "youtubechannel_id": "UCMpF0XV1xEYe94gD1AlUiuA",
         "twitter_id": "946754332963217408",
-        "twitter_screenname":"@tamashiipuppet",
+        "twitter_screenname": "@tamashiipuppet",
         "history": "18日",
         "comment": "のどぼとけシーズン2"
     },
     {
+        "number": "2",
         "name": "ねむ@バーチャル美少女YouTuber",
         "hiragana_name": "ねむばーちゃるびしょーじょゆーちゅーばー",
         "youtubechannel_name": "ねむちゃんねる【バーチャル美少女YouTuber】",
         "youtubechannel_id": "UC7xyzq_Hd72-IbJVoz4DSrQ",
         "twitter_id": "907243297491451905",
-        "twitter_screenname":"@nemchan_nel",
+        "twitter_screenname": "@nemchan_nel",
         "history": "去年の9月から！ たぶん個人でバーチャルYouTuberを名乗ったのは私が初！！",
         "comment": "Vtuber王に私はなるっ(≧∇≦)"
     },
     {
+        "number": "3",
         "name": "千手観音",
         "hiragana_name": "せんじゅかんのん",
         "youtubechannel_name": "千手観音-CLUB三十三間堂-",
         "youtubechannel_id": "UCI-0oML9itjpJN6ahTGdeNA",
         "twitter_id": "953479217051664384",
-        "twitter_screenname":"@senju_kannon_sh",
+        "twitter_screenname": "@senju_kannon_sh",
         "history": "3日くらい",
         "comment": "売名したい"
     },
     {
+        "number": "4",
         "name": "姫宮縷愛",
         "hiragana_name": "ひめみやるあ",
         "youtubechannel_name": "姫宮縷愛",
         "youtubechannel_id": "UCOfIfUdxyXbvZVECpQM14_Q",
         "twitter_id": "946327557623791616",
-        "twitter_screenname":"@Ruah_Himemiya",
+        "twitter_screenname": "@Ruah_Himemiya",
         "history": "2018年1月12日から",
         "comment": "楽しくなりそうなのでがんばります！"
     },
     {
+        "number": "5",
         "name": "きゃぴチャンネル",
         "hiragana_name": "きゃぴちゃんねる",
         "youtubechannel_name": "きゃぴチャンネル【バーチャルYouTuber】",
         "youtubechannel_id": "UCC6Jk8bukxPKnrDK-r35Eog",
         "twitter_id": "953246992171331585",
-        "twitter_screenname":"@kyapichannel",
+        "twitter_screenname": "@kyapichannel",
         "history": "1週間",
         "comment": "新参VTuberですがコミュニティを盛り上げたいと思い参加しました。"
     },
     {
+        "number": "6",
         "name": "照乃",
         "hiragana_name": "ての",
         "youtubechannel_name": "照乃_teno Official/あくたふぉくす",
         "youtubechannel_id": "UCcVCs_YZCGLTpDzT9AY1nFg",
         "twitter_id": "4672972278",
-        "twitter_screenname":"@Lost_a_heart",
+        "twitter_screenname": "@Lost_a_heart",
         "history": "生まれたて",
         "comment": "これを機会に幅広く知っていただければと思います！大手に負けず劣らないVtuber目指して頑張ります(｀・ω・´)"
     },
     {
+        "number": "7",
         "name": "おさかなYouTuber ふく",
         "hiragana_name": "おさかなゆーちゅーばー ふく",
         "youtubechannel_name": "おさかなYouTuber 【ふく】",
         "youtubechannel_id": "UC0TzUrZzagVR3sZ5f_59ogA",
         "twitter_id": "953319596550864896",
-        "twitter_screenname":"@hukuchannel_you",
+        "twitter_screenname": "@hukuchannel_you",
         "history": "1月19日から",
         "comment": "おさかな代表として頑張ります!"
     },
     {
+        "number": "8",
         "name": "釈　迦月",
         "hiragana_name": "シャク　カツキ",
         "youtubechannel_name": "釈迦月ちゃんねる",
         "youtubechannel_id": "UCoP0Sm2YCRPs6UQqesqgyGg",
         "twitter_id": "946592657651798016",
-        "twitter_screenname":"@shakadaibutsu",
+        "twitter_screenname": "@shakadaibutsu",
         "history": "去年の12月28日から",
         "comment": "木っ端バーチャルyoutuberなので競うというよりは、参加することに意義があると思って頑張ります。"
     }
