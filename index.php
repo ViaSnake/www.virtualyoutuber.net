@@ -28,7 +28,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-10">
                     <h3>Q.そもそもバーチャルユーチューバーってなに？</h3>
                     <p>
                         簡単に言えば、ユーチューバーの２次元バージョンである。<br>
@@ -39,30 +39,42 @@
                         自分がVtuberと思えば、バーチャルユーチューバーです！　少なくともこの大会では！<br>
                         さあ今すぐ参加しよう。自分をアピールしよう！<br>
                     </p>
-
-                    <div class="col-md-6">
-                        <div class="card text-center">
-                            <div class="card-header">
-                                バナー募集中
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="card text-center">
+                                <div class="card-header">
+                                    バナー募集中
+                                </div>
+                                <div class="card-block">
+                                    <p class="card-text">
+                                        ホームページの右に出るバナーを随時募集中です<br>
+                                        自分をアピールする良いチャンスですので是非！<br>
+                                        バナーをクリックするとそのVtuberのチャンネルに飛ぶようになります！<br>
+                                    </p>
+                                    <h4>募集要項</h4>
+                                    名前とVtuber本人が描かれている。<br>
+                                    画像の大きさが「190px × 1050px(横 × 縦)」であること。<br>
+                                    不適切な表現が含まれていないこと。<br>
+                                    <a href="mailto:oyuusukeobf3@gmail.com" class="btn btn-primary">メールを送信する</a><br>
+                                    <span class="badge badge-warning">※エントリーされたVtuberのみが対象となります。</span><br>
+                                    <br>
+                                </div>
                             </div>
-                            <div class="card-block">
-                                <p class="card-text">
-                                    ホームページの右に出るバナーを随時募集中です<br>
-                                    自分をアピールする良いチャンスですので是非！<br>
-                                    バナーをクリックするとそのVtuberのチャンネルに飛ぶようになります！<br>
-                                </p>
-                                <h4>募集要項</h4>
-                                名前とVtuber本人が描かれている。<br>
-                                画像の大きさが「190px × 1050px(横 × 縦)」であること。<br>
-                                不適切な表現が含まれていないこと。<br>
-                                <a href="mailto:oyuusukeobf3@gmail.com" class="btn btn-primary">メールを送信する</a><br>
-                                <span class="badge badge-warning">※エントリーされたVtuberのみが対象となります。</span><br>
-                                <br>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card text-center">
+                                <div class="card-header">
+                                    公式Twitter
+                                </div>
+                                <div class="card-block">
+                                    <a class="twitter-timeline" data-height="700" data-theme="light" data-link-color="#981CEB" href="https://twitter.com/vtuber_net?ref_src=twsrc%5Etfw">Tweets by vtuber_net</a>
+                                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-2">
                     <?php
                     include dirname(__FILE__) . '/template/sidebar.php';
                     ?>
