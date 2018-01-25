@@ -12,7 +12,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-10">
                     <h2>大会期間</h2>
                     <p>2018/02/01(木) 0:00 ― 2018/02/28(水) 23:59</p>
 
@@ -91,7 +91,7 @@
                         <li>ランキングは前半2週間は12時間に1回、後半2週間は24時間に1回更新されます。</li>
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-2">
                     <?php
                     include dirname(__FILE__) . '/template/sidebar.php';
                     ?>
