@@ -26,13 +26,19 @@ $players = json_decode($json, true);
                                 <?php echo $value["name"]; ?>
                             </h5>
                             <div class="card-body">
-                                <p class="card-text">
-                                    YouTube - <?php echo '<a href="https://www.youtube.com/channel/' . $value["youtubechannel_id"] . '">' . $value["youtubechannel_name"] . '</a>'; ?><br>
-                                    Twitter - <?php echo '<a href="https://twitter.com/intent/user?user_id=' . $value["twitter_id"] . '">' . $value["twitter_screenname"] . '</a>'; ?><br>
-                                    VTuber歴 - <?php echo $value["history"]; ?><br>
-                                </p>
-                                <h5>意気込み</h5>
-                                <?php echo $value["comment"]; ?><br>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <?php echo '<img src="/img/profile/' . $value["number"] . '.jpg" width="140" height="140" >'; ?>
+                                    </div>
+                                    <div class="col-md-9">
+                                        YouTube - <?php echo '<a href="https://www.youtube.com/channel/' . $value["youtubechannel_id"] . '">' . $value["youtubechannel_name"] . '</a>'; ?><br>
+                                        Twitter - <?php echo '<a href="https://twitter.com/intent/user?user_id=' . $value["twitter_id"] . '">' . $value["twitter_screenname"] . '</a>'; ?><br>
+                                        VTuber歴 - <?php echo $value["history"]; ?><br>
+                                        <br>
+                                        <h5>意気込み</h5>
+                                        <?php echo $value["comment"]; ?><br>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <br>
