@@ -1,12 +1,20 @@
 <?php
-include dirname(__FILE__) . '/template/widget/banner.php';
+$banner = [
+    [
+        '/img/banner/5.png','UCC6Jk8bukxPKnrDK-r35Eog'
+    ],
+    [
+        '/img/banner/7.png','UC0TzUrZzagVR3sZ5f_59ogA'
+    ],
+    [
+        '/img/banner/8.png','UCoP0Sm2YCRPs6UQqesqgyGg'
+    ],
+];
+
+$n = mt_rand(0, 2);
+print_r($n);
+
+echo '<a href="https://www.youtube.com/channel/' . $banner[$n][1] . '">';
+echo '<img src="' . $banner[$n][0] . '" alt="banner" >';
+echo '</a>';
 ?>
-<div class="card text-center">
-    <div class="card-header">
-        公式Twitter
-    </div>
-    <div class="card-block">
-        <a class="twitter-timeline" data-height="700" data-theme="light" data-link-color="#981CEB" href="https://twitter.com/vtuber_net?ref_src=twsrc%5Etfw">Tweets by vtuber_net</a>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
-</div>
