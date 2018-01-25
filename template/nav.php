@@ -8,16 +8,16 @@
                 <a class="nav-link" href="/">HOME</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="rule.php">RULE</a>
+                <a class="nav-link" href="/rule/">RULE</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="players.php">PLAYERS</a>
+                <a class="nav-link" href="/players/">PLAYERS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="link.php">LINK</a>
+                <a class="nav-link" href="/link/">LINK</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contact.php">CONTACT</a>
+                <a class="nav-link" href="/contact/">CONTACT</a>
             </li>
         </ul>
     </div>
