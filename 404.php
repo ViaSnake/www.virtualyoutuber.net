@@ -13,7 +13,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10">
-                    現在、一時的にサービスの提供ができません。
+                    <h1>404 エラー</h1>
+                    <p>お探しのページは、発見できませんでした。</p>
                 </div>
                 <div class="col-md-2">
                     <?php
