@@ -13,7 +13,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10">
-                    お探しのページは、発見できませんでした。
+                    <h1>503 エラー</h1>
+                    <p>現在、一時的にサービスの提供ができません。</p>
                 </div>
                 <div class="col-md-2">
                     <?php
