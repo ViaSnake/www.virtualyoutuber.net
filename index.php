@@ -19,7 +19,7 @@
                     ※エントリーする上で、必ずルール等を読む必要があります。
                     エントリーシートにも記載されていますが、必ず読んでください。 
                 </p>
-                <a class="btn btn-primary btn-lg" href="https://goo.gl/forms/YEQI5gT3nPcQpdOi2" role="button">第一回バーチャルユーチューバー選手権にエントリーする！</a>
+                <a class="btn btn-primary btn-lg btn-block" href="https://goo.gl/forms/YEQI5gT3nPcQpdOi2" role="button">第一回バーチャルユーチューバー選手権にエントリーする！</a>
             </div>
         </div>
         <?php
