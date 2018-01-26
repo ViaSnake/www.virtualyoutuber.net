@@ -23,7 +23,7 @@
             </div>
         </div>
         <?php
-        include dirname(__FILE__) . '/template/widget/message.php';
+        include dirname(__FILE__) . '/template/message.php';
         ?>
 
         <div class="container">
