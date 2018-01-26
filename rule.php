@@ -13,6 +13,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10">
+                    <h1>ルール</h1>
                     <h2>大会期間</h2>
                     <p>2018/02/01(木) 0:00 ― 2018/02/28(水) 23:59</p>
 

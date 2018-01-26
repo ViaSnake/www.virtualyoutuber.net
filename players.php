@@ -18,7 +18,7 @@ $players = json_decode($json, true);
         <div class="container">
             <div class="row">
                 <div class="col-md-10">
-                    <h3>参加選手一覧</h3>
+                    <h1>参加選手一覧</h1>
                     <p>登録順</p>
                     <?php foreach ($players as $key => $value) { ?>
                         <div class="card text-center">
