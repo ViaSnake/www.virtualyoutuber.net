@@ -13,6 +13,7 @@ $banner = [
 
 $n = mt_rand(0, 2);
 
+echo '<h2>バナー</h2>';
 echo '<a href="https://www.youtube.com/channel/' . $banner[$n][1] . '">';
 echo '<img src="' . $banner[$n][0] . '" alt="banner" >';
 echo '</a>';
