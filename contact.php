@@ -13,6 +13,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10">
+                    <h1>CONTACT</h1>
                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdUI4-VYc6BSAFo0EPkgSKZcapAx4K4n2KJDF8WaNaOqu1-7w/viewform?embedded=true" width="720" height="1200" frameborder="0" marginheight="0" marginwidth="0">
                         読み込んでいます...
                     </iframe>
