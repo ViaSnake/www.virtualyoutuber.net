@@ -3,14 +3,14 @@
     <?php
     define("title", "RULE");
     include dirname(__FILE__) . '/template/header.php';
+    include dirname(__FILE__) . '/template/nav.php';
     ?>
     <body>
         <?php
-        include dirname(__FILE__) . '/template/nav.php';
         include dirname(__FILE__) . '/template/message.php';
         ?>
 
-        <div class="container">
+        <main class="container">
             <div class="row">
                 <div class="col-md-10">
                     <h1>ルール</h1>
@@ -98,9 +98,9 @@
                     ?>
                 </div>
             </div>
-        </div>
-        <?php
-        include dirname(__FILE__) . '/template/footer.php';
-        ?>
+        </main>
     </body>
+    <?php
+    include dirname(__FILE__) . '/template/footer.php';
+    ?>
 </html>

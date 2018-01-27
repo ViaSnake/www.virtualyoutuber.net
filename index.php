@@ -3,11 +3,9 @@
     <?php
     define("title", "HOME");
     include dirname(__FILE__) . '/template/header.php';
+    include dirname(__FILE__) . '/template/nav.php';
     ?>
     <body>
-        <?php
-        include dirname(__FILE__) . '/template/nav.php';
-        ?>
         <div class="jumbotron text-center">
             <div class="container">
                 <h1 class="display-3">バーチャルユーチューバー選手権</h1>
@@ -26,7 +24,7 @@
         include dirname(__FILE__) . '/template/message.php';
         ?>
 
-        <div class="container">
+        <main class="container">
             <div class="row">
                 <div class="col-md-10">
                     <h3>Q.そもそもバーチャルユーチューバーってなに？</h3>
@@ -80,9 +78,9 @@
                     ?>
                 </div>
             </div>
-        </div>
-        <?php
-        include dirname(__FILE__) . '/template/footer.php';
-        ?>
+        </main>
     </body>
+    <?php
+    include dirname(__FILE__) . '/template/footer.php';
+    ?>
 </html>

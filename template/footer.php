@@ -1,4 +1,4 @@
-<div class="footer">
+<footer class="footer">
     <div class="container">
         <center>
             <!-- Copyright -->
@@ -8,4 +8,4 @@
             </p>
         </center>
     </div>
-</div>
+</footer>
