@@ -1,6 +1,9 @@
 Options -Indexes
 
-### Rewrite ###
+ErrorDocument 404 /404.php
+ErrorDocument 503 /503.php
+
+## Rewrite ##
 <IfModule mod_rewrite.c>
   MultiviewsMatch Any
   RewriteEngine On
@@ -10,3 +13,10 @@ Options -Indexes
   RewriteRule ^rule/$ rule.php [L]
   RewriteRule ^contact/$ contact.php [L]
 </IfModule>
+
+## 旧サイトの名残リンク修正 ##
+RewriteRule home.html / [R=301,L]
+RewriteRule players.html players/ [R=301,L]
+RewriteRule rules.html rule/ [R=301,L]
+RewriteRule links.html link/ [R=301,L]
+RewriteRule contacts.html contact/ [R=301,L]
