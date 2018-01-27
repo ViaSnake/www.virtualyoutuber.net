@@ -3,11 +3,9 @@
     <?php
     define("title", "HOME");
     include dirname(__FILE__) . '/template/header.php';
+    include dirname(__FILE__) . '/template/nav.php';
     ?>
     <body>
-        <?php
-        include dirname(__FILE__) . '/template/nav.php';
-        ?>
         <div class="jumbotron text-center">
             <div class="container">
                 <h1 class="display-3">バーチャルユーチューバー選手権</h1>
@@ -81,8 +79,8 @@
                 </div>
             </div>
         </div>
-        <?php
-        include dirname(__FILE__) . '/template/footer.php';
-        ?>
     </body>
+    <?php
+    include dirname(__FILE__) . '/template/footer.php';
+    ?>
 </html>

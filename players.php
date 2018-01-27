@@ -8,10 +8,10 @@ $players = json_decode($player_json, true);
     <?php
     define("title", "PLAYERS");
     include dirname(__FILE__) . '/template/header.php';
+    include dirname(__FILE__) . '/template/nav.php';
     ?>
     <body>
         <?php
-        include dirname(__FILE__) . '/template/nav.php';
         include dirname(__FILE__) . '/template/message.php';
         ?>
 
@@ -51,8 +51,8 @@ $players = json_decode($player_json, true);
                 </div>
             </div>
         </div>
-        <?php
-        include dirname(__FILE__) . '/template/footer.php';
-        ?>
     </body>
+    <?php
+    include dirname(__FILE__) . '/template/footer.php';
+    ?>
 </html>
